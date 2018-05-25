@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>OpenShop</title>
+	<link rel="stylesheet" type="text/css" href="css/style1.css">
+</head>
+<body>
+	<header id="main-header">
+		<div class="container">
+			<h1>OpenShop</h1>
+		</div>
+	</header>
+
+	<nav id="navbar">
+		<div class="container">
+			<ul>
+				<li><a href="index.html">Home</a></li>
+				<li><a href="login.html">Shop</a></li>
+				<li><a href="login.html">Sell</a></li>
+				<li><a href="about.html">About</a></li>
+				<li><a href="login.html">Log In</a></li>
+				
+			</ul>
+		</div>
+	</nav>
+
+	<!-- <form class="my-form"> -->
+	<section id="login">
+		<div class="container">
+			<form action="http://localhost/openshop/controller/server.php" method="POST">
+				
+			<div class="form-group2">
+				<label>First Name: </label>
+				<input type="text" name="firstName">
+			</div>
+			<br>
+			<div class="form-group2">
+				<label>Last Name: </label>
+				<input type="text" name="lastName">
+			</div>
+			<br>
+			<div class="form-group2">
+				<label>User Name: </label>
+				<input type="text" name="userName">
+			</div>
+			<br>
+			<div class="form-group2">
+				<label>Password: </label>
+				<input type="password" name="psw" minlength="4" maxlength="30">
+			</div>
+			<br>
+			<div class="form-group2">
+				<label>Country: </label>
+				<select name="country">
+					<option value="bangladesh">Bangladesh</option>
+				</select>
+			
+			
+				<label> District:</label>
+				<select name="district">
+					<option value="dhaka">Dhaka</option>
+					<option value="chittagong">Chittagong</option>
+					<option value="rajshahi">Rajshahi</option>
+				</select>
+			</div>
+			<br>
+			<div class="form-group2">
+				<label>E-Mail: </label>
+				<input type="email" name="email">
+			</div>
+			<br>
+			<div class="form-group2">
+				<label>Gender</label>
+				<select name="gender">
+					<option value="male">Male</option>
+					<option value="female">Female</option>
+					<option value="other">Other</option>
+				</select>
+			</div>
+			<br>
+			<div class="form-group2">
+				<label>Birthday:</label>
+				<input type="date" name="birthday">
+			</div>
+			<br>
+			<div class="form-group2">
+				<label>Contact Number: </label>
+				<input type="number" name="mobile">
+			</div>
+			<br>
+
+			<input class="button" type="submit" value="Submit" name="submit">
+			<br>
+			</form>
+		</div>
+	</section>
+
+			
+</body>
+</html>

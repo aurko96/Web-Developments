@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>OpenShop</title>
+	<link rel="stylesheet" type="text/css" href="css/style1.css">
+</head>
+<body>
+	<header id="main-header">
+		<div class="container">
+			<h1>OpenShop</h1>
+		</div>
+	</header>
+
+	<nav id="navbar">
+		<div class="container">
+			<ul>
+				<li><a href="index.html">Home</a></li>
+				<li><a href="#">Shop</a></li>
+				<li><a href="#">Sell</a></li>
+				<li><a href="about.html">About</a></li>
+				<li><a href="#">Log In</a></li>
+				
+			</ul>
+		</div>
+	</nav>
+
+	<!-- <form class="my-form"> -->
+	<section id="login">
+		<div class="container">
+			<form action="http://localhost/openshop/controller/serverLogin.php" method="POST">
+				
+			<div class="form-group">
+				<label>User Name: </label>
+				<input type="text" name="userName">
+			</div>
+			<br>
+			<div class="form-group">
+				<label>Password: </label>
+				<input type="password" name="psw">
+			</div>
+			<br>
+			<input class="button" type="submit" value="Submit" name="submit">
+			</form>
+		</div>
+		<div class="sign">
+			<p>Don't have an account ? <a href="signup.html"> Sign Up </a> </p>
+		</div>
+	</section>
+
+			
+</body>
+</html>

@@ -1,0 +1,12 @@
+BEGIN
+DECLARE
+VAL INT(11);
+
+
+SELECT product_quantity INTO VAL FROM products WHERE product_id=PROD_ID;
+
+SET VAL=VAL+AMOUNT;
+
+
+UPDATE products SET product_quantity=VAL WHERE product_id=PROD_ID;
+END

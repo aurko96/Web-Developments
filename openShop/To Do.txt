@@ -1,0 +1,5 @@
+This project requires XAMPP 
+
+Put this openShop folder in XAMPP/htdocs
+
+And put the files of openShop/model/Database Files inside XAMPP/mysql
